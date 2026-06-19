@@ -1,4 +1,8 @@
 
+html {
+    font-size: 13px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif ;
     height: 100%;
@@ -17,7 +21,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0px 20px;
 }
@@ -68,7 +72,7 @@ main {
 
 /* --- HERO SECTION --- */
 .hero-section {
-  height: 100vh; /* ajuste aqui */
+  height: 80vh; /* ajuste aqui */
   min-height: 400px;
   max-height: 800px;
   position: relative;
@@ -133,7 +137,7 @@ main {
 
 .feature-card {
     background-color: whitesmoke;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 8px 10px rgba(0,0,0,0.05);
     text-align: center;
@@ -178,7 +182,7 @@ main {
 }
 
 .container4 {
-    max-width: 1200px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 60px 20px;
     color: #f8d563;
