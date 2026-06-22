@@ -267,6 +267,16 @@ main {
     gap: 20px;
 }
 
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:visited{
+    color: white;
+    text-decoration: none;
+}
+
 .social-links {
     display: flex;
     gap: 15px;
