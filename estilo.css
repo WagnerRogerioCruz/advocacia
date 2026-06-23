@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 
-.logo h1 {
+.logo h2 {
     font-size: x-large;
     color: #f8d563;
 }
@@ -319,6 +319,46 @@ main {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+/* --- RESPONSIVIDADE (MEDIA QUERIES) --- */
+@media (max-width: 768px) {
+    body { 
+        padding-top: 120px; /* Aumentado para compensar o menu que agora tem duas linhas no mobile */
+    }
+
+    section { 
+        padding: 50px 0; 
+    }
+
+    .flex-nav { 
+        flex-direction: column; 
+        gap: 12px; 
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap; /* Se a tela for muito pequena (ex: iPhone SE), os links quebram de linha com elegância, sem sumir */
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .nav-links li {
+        padding: 4px 8px; /* Reduz ligeiramente o espaçamento para caberem lado a lado */
+    }
+
+    .nav-links a {
+        font-size: 0.85rem; /* Diminui sutilmente o tamanho do texto para telas menores */
+    }
+
+    .hero-content h1 { 
+        font-size: 1.8rem; 
+    }
+    
+    .footer-content { 
+        justify-content: center; 
+        text-align: center; 
     }
 }
 
